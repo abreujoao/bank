@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.menu, .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.btn, button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover, button:hover {
+    background-color: #45a049;
+}
+
+.alert {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+
+.alert.success { background-color: #d4edda; color: #155724; }
+.alert.error { background-color: #f8d7da; color: #721c24; }
+
+input[type="number"], select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.container {
+    max-width: 600px; /* Limita a largura do container */
+    margin:center; /* Centraliza o container */
+    padding: 20px; /* Adiciona espaçamento interno */
+    border: 1px solid #ccc; /* Adiciona borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    background-color: #f9f9f9; /* Fundo claro */
+}
+
+label {
+    display: block; /* Faz com que o label ocupe toda a linha */
+    margin-bottom: 5px; /* Espaço abaixo do label */
+    font-weight: bold; /* Destaca o texto do label */
+}
+
+input[type="number"] {
+    width: calc(100% - 10px); /* Faz com que o input ocupe a largura total menos margens */
+    padding: 8px; /* Adiciona preenchimento interno */
+    margin-bottom: 15px; /* Espaço abaixo do input */
+    border: 1px solid #ccc; /* Adiciona borda ao input */
+    border-radius: 4px; /* Bordas arredondadas */
+}
+
+button {
+    padding: 10px 15px; /* Preenchimento interno para os botões */
+    margin-right: 10x; /* Espaço entre os botões */
+    border: none; /* Remove borda padrão */
+    border-radius: 4px; /* Bordas arredondadas */
+    background-color: #4CAF50; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+}
+
+button:hover {
+    background-color: #45a049; /* Cor de fundo do botão ao passar o mouse */
+}
+
+.alert {
+    padding: 10px; /* Preenchimento interno para alertas */
+    margin-bottom: 15px; /* Espaço abaixo dos alertas */
+    border-radius: 4px; /* Bordas arredondadas para alertas */
+}
+
+.success {
+    background-color: #d4edda; /* Fundo verde claro */
+    color: #155724; /* Cor do texto verde escuro */
+}
+
+.error {
+    background-color: #f8d7da; /* Fundo vermelho claro */
+    color: #721c24; /* Cor do texto vermelho escuro */
+}
