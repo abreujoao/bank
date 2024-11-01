@@ -21,7 +21,6 @@ Este projeto simula um sistema de banco virtual, com funcionalidades para gerenc
 - **Python 3.x**: Certifique-se de ter o Python instalado.
 - **Bibliotecas Python**:
   ```bash
-  pip install flask qrcode[pil]
   ```
 
 ## 🛠️ Como Executar
